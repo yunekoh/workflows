@@ -2,9 +2,9 @@ name: Build App
 #on: push
 on:
   workflow_dispatch:
-    inputs:
-      branch:
-        description: "Inserisci il nome della branch"
+    #inputs:
+      #branch:
+        #description: "Inserisci il nome della branch"
 
 jobs:
   build:
